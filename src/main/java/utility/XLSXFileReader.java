@@ -15,9 +15,8 @@ public class XLSXFileReader {
 	protected XSSFCell cell;
 	protected XSSFRow row;
 
-	
 	public void setExcelFile(String Path) throws Exception {
-		 
+
 			try {
 			FileInputStream ExcelFile = new FileInputStream(Path);
 			excelWBook = new XSSFWorkbook(ExcelFile);
@@ -27,7 +26,7 @@ public class XLSXFileReader {
 			}
 
 	}// end of setexcelfile
-	
+
 	@SuppressWarnings("null")
 	public String[][] getExcelSheetData(String sheetname) throws Exception {
 		String[][] data = null;
@@ -60,9 +59,11 @@ public class XLSXFileReader {
 
 				}
 			}
-			
+
 			return mydata;
 		} //// end of getexcel sheet data
 
 
+
 } // end of class
+

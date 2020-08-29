@@ -11,10 +11,15 @@ What is IDE?
 Answer:
 
 What are the IDEs available in the market to support java?
+
 Explain the entire java life cycle.
 what is class?
+
 What is object?
+
 What is the entry point of an application?
+->Main Method (public static void main(String[]args){}
+
 Why main is static?
 Which class is the superclass of all classes?
 What is difference between path and classpath variables?
@@ -22,26 +27,56 @@ What is the difference between an Interface and Abstract class?
 Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
 what is Access Specifier?
 What is OOP ? Define each feature of java OOP.
+->OOP "Object Oriented Programmin"
 What is Java Package and which package is imported by default?
 What is API? Name list of API that you have used so far.
+
 Does java support multiple inheritance, explain why or why not?
+
 What is method overloading and when it happens?
+->When same method declared with different parameters in the same class ,it is known to be method overloading,
+
 Explain exceptions in java and how to handle it.
+->Exceptions are kind of like error but it can be fix during compile time but using try catch block
+or by using java exception build-in functions.
+
 What is static keyword in java? How it has been used in variables and methods ?
+
 What is final and how it has been used variables and methods?
 What is final, finally and finalize?
+
 What is a constructor ?
+->A Constructor looks like a method but it has a name as the class but it does have a return type.
+
 Can we have multiple constructors in a class?
+->Yes
+
 If we don't have a constructor declared, what is called during the object creation?
+->Default constructor
+
 What is "this" keyword in java ?
 What is "super" keyword in java? How many possible way can you use?
+
 What is JVM stand for ?
+->Java Virtual Machine
+
 Is JVM platform independent?
+->Yes
+
 What version of java are you using?
+->Java 8
 What is JAR stand for ?
+
 What is the difference between JDK and JVM?
+-> JDK is a tool and JVM is Java Virtual Machine
+
 What is the difference between JVM and JRE?
+->JVM is Java Virtual Machine and JRE is Java Run time Environment
+
 What is compile time and run time?
+->The time take during Writing a block of code and before executing
+is known as compile time.
+
 What is heap?
 How java manage it's memory?
 What is the difference between String, StringBuffer and StringBuilder?
@@ -62,10 +97,18 @@ What is the difference between stack and heap in Java?
 What is reflection in java and why is it useful?
 what is multithreading in java?
 What is the use of synchronization in Java?
+
 What is Framework?
+-> A Frame is a collection Java Class.
+
 What are the testing Framework available in java?
 Difference between jUnit and testNG?
+
 What are the dependencies for this project?
+->Apchepoi
+->TestNG
+->PostgresSQL
+
 what is dependency injection in java?
 What is static binding and dynamic binding?
 What is Collections Framework?
@@ -74,7 +117,10 @@ Explain what is main method?
 What is StringBuffer and String Builder?
 What do you understand by Thread Safe?
 What are the latest changes in Java 8?
+
 What do you understand by default method in Java?
+->A deafult method is a method is which had its own name and body and return type but
+without a parameter pass as an argument on it's method body.
 
 
 

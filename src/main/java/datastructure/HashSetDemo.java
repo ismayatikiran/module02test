@@ -1,5 +1,8 @@
 package datastructure;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class HashSetDemo {
 
     /**
@@ -10,5 +13,17 @@ public class HashSetDemo {
      *
      * */
 
+    public void employeName() {
 
+        Set<String> name = new HashSet<String>();
+        name.add("Vijay Kumar");
+        name.add("Shakil Arora");
+        name.add("Omar ALi");
+        name.add("Asif Uddin");
+        name.add("Iqbal Hossain");
+
+        for (String employeeN : name) {
+            System.out.println(employeeN);
+        }
+    }
 }
