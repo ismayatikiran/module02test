@@ -26,7 +26,7 @@ public class DbConnection {
 
    public static Properties loadProperties() throws IOException {
 
-       InputStream inputStream = new FileInputStream("src/main/resources/secret.properties");
+       InputStream inputStream = new FileInputStream("C:\\BATCH-OF-2020\\Javatest2020\\module02test\\src\\main\\resources\\secret.properties");
 
        Properties properties = new Properties();
        properties.load(inputStream);

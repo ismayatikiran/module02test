@@ -11,7 +11,6 @@ public class FindDuplicates {
      * Write Code To Filter Duplicate Elements From An Array?
      * */
 
-
     public static void main(String[] args) {
 
     }
